@@ -1,4 +1,8 @@
-# scorecardpy 0.1.7.4
+# scorecardpy 0.1.8.2
+* fixed a bug in scorecard_ply, supports card as a DataFrame
+* fixed a bug in woebin when using parallel in windows
+
+# scorecardpy 0.1.8
 
 * pdo in scorecard function now supports negative value.
 * fixed a bug in split_df when the input dataframe has a specified index.
@@ -6,6 +10,7 @@
 * added a one-hot encoding function 
 * fixed a bug in woebin using chimerge method for int64 variables, causing it cant trnasform into woe values 
 * added save_breaks_list argument in both woebin and woebin_adj function, which can save breaks_list as file in current working directory.
+* modified arguments in woebin, woebin_ply functions to fix some bugs
 
 # scorecardpy 0.1.7
 
